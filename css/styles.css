@@ -9094,3 +9094,15 @@ form .row:first-child .floating-label-form-group {
 .btn-social {
     margin-bottom: 0.5rem;
 }
+
+#headerImage {
+    background-image: url(https://embramataltatensao.com.br/wp-content/uploads/2018/10/3215.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    align-self: flex-end;
+}
+@media only screen and (max-width: 850px) {
+    #headerImage {
+        background-size: 1300px;
+    }
+}
