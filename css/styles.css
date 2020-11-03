@@ -70,9 +70,6 @@ body {
     text-align: left;
     background-color: #fff;
 }
-.containerServices {
-    background-color: #29492e;
-}
 .overflow_ {
     height: 20px;
     position: absolute;
@@ -81,7 +78,6 @@ body {
     font-weight: bolder;
     color: #f8f8f8;
     text-shadow: 1px 1px rgb(77, 77, 77);
-    font-family: SB Body, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
