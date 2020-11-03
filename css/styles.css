@@ -70,6 +70,9 @@ body {
     text-align: left;
     background-color: #fff;
 }
+.containerServices {
+    background-color: #29492e;
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
 }
@@ -9096,7 +9099,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 #headerImage {
-    background-image: url(https://embramataltatensao.com.br/wp-content/uploads/2018/10/3215.jpg);
+    background-image: url("fundoHeader.jpg");
     background-repeat: no-repeat;
     background-size: 130%;
     align-self: flex-end;
@@ -9106,3 +9109,22 @@ form .row:first-child .floating-label-form-group {
         background-size: 1300px;
     }
 }
+
+.overflow_ {
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: bolder;
+    color: #f8f8f8;
+    text-shadow: 1px 1px rgb(77, 77, 77);
+    font-family: SB Body, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+li:before.plug {
+    content: "\f1e6"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
