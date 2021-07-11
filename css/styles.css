@@ -9105,7 +9105,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 #headerImage {
-    background-image: url("fundoHeader.jpg");
+    background-image: url("fundoHeader\ copy.jpg");
     background-repeat: no-repeat;
     background-size: 130%;
     align-self: flex-end;
